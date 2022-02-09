@@ -3,6 +3,9 @@
 
 ## Git setup
   - Aliases
+  - Gitbash prompt
+ - Git cheatsheet
 ## VS Code setup
-- Keyboard shortcuts
-- Settings
+- User defined keyboard shortcuts
+- User settings
+- Shortcuts cheatsheet
