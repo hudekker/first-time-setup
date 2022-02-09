@@ -1,6 +1,8 @@
 # First-time setup for computer 
-Git setup
+
+
+## Git setup
   - Aliases
-VS Code setup
+## VS Code setup
 - Keyboard shortcuts
 - Settings
