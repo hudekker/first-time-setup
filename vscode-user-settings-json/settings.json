@@ -1,0 +1,128 @@
+{
+  "files.associations": {
+    "*.html": "html",
+    "*.ejs": "html",
+    "*.hbs": "html",
+    "*.js": "javascriptreact",
+    "*.mustache": "html",
+    "*.handlebars": "html"
+  },
+  "emmet.syntaxProfiles": {
+    "html": {
+      "inline_break": 1
+    }
+  },
+  "emmet.preferences": {
+    "output.inlineBreak": 1
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "python.pythonPath": "/usr/local/bin/python",
+  "editor.tabSize": 2,
+  "editor.fontSize": 16,
+  // "editor.parameterHints": true,
+  // "atomKeymap.promptV3Features": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.formatOnPaste": true,
+  "editor.wordWrap": "on",
+  // "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.colorCustomizations": {},
+  "breadcrumbs.enabled": true,
+  "editor.snippetSuggestions": "top",
+  "python.jediEnabled": false,
+  "terminal.integrated.rendererType": "dom",
+  "emmet.includeLanguages": {
+    "django-html": "html",
+    "javascript": "javascriptreact"
+  },
+  // "liveServer.settings.donotVerifyTags": true,
+  // "[django-html]": {},
+  "editor.hover.enabled": false,
+  "html.validate.scripts": false,
+  "html.format.unformatted": "wbr,%",
+  "html.format.wrapAttributes": "auto",
+  "html.format.enable": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.minimap.enabled": false,
+  "beautify.config": {
+    "brace_style": "collapse,preserve-inline",
+    "indent_size": 2,
+    "selector_separator_newline": false,
+    "wrap_attributes": "align-multiple",
+    "beautify.language": {
+      "js": {
+        "type": ["javascript", "json", "jsonc"],
+        "filename": [".jshintrc", ".jsbeautifyrc"]
+      },
+      "css": ["css", "scss"],
+      "html": ["htm", "html", "ejs"]
+    }
+  },
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": false,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": false,
+  "workbench.activityBar.visible": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "editor.quickSuggestions": {
+    "properties": true,
+    "comments": true,
+    "strings": true
+  },
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascriptreact]": {},
+  "dart.enableCompletionCommitCharacters": true,
+  "workbench.colorTheme": "Dracula",
+  // "terminal.integrated.fontFamily": "Fira Code",
+  "workbench.sideBar.location": "left",
+  "gitlens.gitCommands.skipConfirmations": ["fetch:command", "stash-push:command", "switch:command", "stash-apply:command"],
+  "gitlens.gitCommands.closeOnFocusOut": true,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "git.confirmSync": false,
+  "gitlens.views.compare.files.layout": "tree",
+  "gitlens.views.repositories.branches.layout": "list",
+  "gitlens.views.repositories.files.layout": "list",
+  "liveServer.settings.port": 8000,
+  "liveServer.settings.host": "localhost",
+  "workbench.startupEditor": "newUntitledFile",
+  "editor.formatOnSave": true,
+  "[dart]": {
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.rulers": [80],
+    "editor.selectionHighlight": false,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "onlySnippets",
+    "editor.wordBasedSuggestions": false
+  },
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json", "jsonc"],
+      "filename": [".jshintrc", ".jsbeautifyrc"]
+    },
+    "css": ["css", "less", "scss"],
+    "html": ["htm", "html"]
+  },
+  "prettier.printWidth": 200,
+  "bracketPairColorizer.depreciation-notice": false,
+  "files.exclude": {
+    "**/.git": false
+  },
+  "terminal.integrated.fontSize": 14,
+  "python.defaultInterpreterPath": "/usr/local/bin/python",
+  "python.languageServer": "None",
+  "liveServer.settings.donotVerifyTags": true,
+  "window.zoomLevel": 1
+}
