@@ -111,6 +111,14 @@
   background-color: crimson;
 }
 
+.color-test {
+  background: linear-gradient(to right, red 0%, purple 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 10vw;
+}
+
 @media only screen and (max-width: 768px) {
   .bg-test {
     background-color: lightgreen;
