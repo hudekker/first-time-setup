@@ -33,7 +33,7 @@
 	pullun = pull --allow-unrelated-histories
 	aliase = config --global -e
 	
-	rollback="!f(){ git restore --source $1 . }; f"
+	rollback="!f(){ git restore --source $1 .; }; f"
 
 	# git restore --source HEAD~2 .
 	
