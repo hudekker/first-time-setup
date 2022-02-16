@@ -32,6 +32,11 @@
 	undo = "!f(){ git restore --staged $1 && git restore $1; }; f"
 	pullun = pull --allow-unrelated-histories
 	aliase = config --global -e
+	
+	rollback="!f(){ git restore --source $1 . }; f"
+
+	# git restore --source HEAD~2 .
+	
 	# undo = !git restore --staged . && git restore .
 	# undo = !git st restore --staged . && git restore .
 	# undo2 = "!f(){ git restore --staged $1 && git restore $1; }; f"
