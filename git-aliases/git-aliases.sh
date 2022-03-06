@@ -34,7 +34,7 @@
 	aliase = config --global -e
 	
 	rollback="!f(){ git restore --source $1 .; }; f"
-
+	taglist = tag --list --format '%(refname:short) %(objectname:short)'
 	# git restore --source HEAD~2 .
 	
 	# undo = !git restore --staged . && git restore .

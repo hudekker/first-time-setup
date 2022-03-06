@@ -134,3 +134,48 @@ $ git config --get-regexp '^alias\.'
 // edit
 $ git config --global -e
 ```
+
+### tags
+
+```console
+// create tag
+$ git tag <tag>
+
+// create annotated tag
+$ git tag -a <tag>
+
+// tag previous commits
+$ git tag <tag> <commit>
+
+// tag previous commits force
+$ git tag <tag> <commit> -f
+
+// delete tag
+$ git tag -d <tag>
+
+// tag search
+$ git tag -l "*beta*"
+
+// tag show
+$ git show <tag>
+
+// tag diff
+$ git diff <tag1> <tag2>
+
+// checkout tag
+$ git checkout <tag>
+$ git switch -c <new-branch-name>
+
+// push all tags
+$ git push <remote> --tags
+
+// push one tag
+$ git push <remote> <tag>
+
+// show simple tags with commits
+$ git show-ref --abbrev=7 --tags
+
+// taglist
+$ git tag --list --format '%(refname:short) %(objectname:short)'
+
+```
