@@ -178,4 +178,11 @@ $ git show-ref --abbrev=7 --tags
 // taglist
 $ git tag --list --format '%(refname:short) %(objectname:short)'
 
+// delete all local tags and get remote tags
+git tag -l | xargs git tag -d
+git fetch
+
+// remove all remote tags
+git tag -l | xargs -n 1 git push --delete origin
+
 ```
