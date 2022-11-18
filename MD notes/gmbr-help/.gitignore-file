@@ -1,0 +1,6 @@
+.git
+.gitignore
+ignore/*
+# Uncomment this for g-hudektech
+# data/*
+# *.html
